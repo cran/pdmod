@@ -8,7 +8,6 @@
 
 #include <R.h>
 #include <math.h>
-#include <assert.h>
 
 const double EQUALITY_PRECISION =  1.0e-20;
 const double NEAR_INFINITY = 1e100;
@@ -82,7 +81,6 @@ void compute_model( double *x, double *deltat, int *interference, int *length,
 			double reciprocalError = 1 / forecastMse[i];
 			if ( !R_FINITE( reciprocalError ) ) { reciprocalError = NEAR_INFINITY; }
 			if ( ISNA( x[i - 1] ) ) { reciprocalError = 0; }
-			assert( !ISNAN( reciprocalError ) );
 			currentReciprocalSum += reciprocalError;
 			
 			/* decay reciprocalSum if interference */

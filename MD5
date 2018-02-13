@@ -1,5 +1,5 @@
-fcc72a898b96661dc7ed83a6a4ec96a8 *DESCRIPTION
-da7c7de0488ce4ccd1f944b6ac9fa28e *NAMESPACE
+4533d2dacc03cd35eb420a80096b1939 *DESCRIPTION
+e89041fcdeafa23adaa68f17df81cce5 *NAMESPACE
 190935c565ed3d6958a8a0d87aad53f4 *R/TimedVector.R
 9075537219783917bae657bf75ee0720 *R/averageBySession.R
 29f337432d82e7d5caf941abf2aa14b5 *R/cTimedVector.R
@@ -13,11 +13,11 @@ c9c8b76d6167b34ae180dc3325a1843e *R/plot.pdmod.R
 f9744e37a938d942d71c14dc5c1b712c *R/printTimedVector.R
 999788fce2a0cffa494501a8a25a9e3e *R/timeTimedVector.R
 4ae9dbcb715a244481047d37b5404bf4 *R/verifyTimedVector.R
-43288b5fb481ade4c3c5f4ca894acb07 *build/vignette.rds
+f30ee25aa75400ba28449310064b6cc5 *build/vignette.rds
 d374d9aec7bc94890d7601ac26191fb8 *inst/doc/pdmod.R
 ca2efb9d59eabe09c2e88ce68197b33a *inst/doc/pdmod.Rnw
-192f963ce66a62be26a13d2ef035634e *inst/doc/pdmod.pdf
-d9a4365791b965b26bc85fff7d5e1a44 *inst/unitTests/Makefile
+96dd532c68a822a010b372f65bccfe9c *inst/doc/pdmod.pdf
+1545aa030767afe1ff6e65a39cfdc37e *inst/unitTests/Makefile
 517bc6fc62ee0e064a91ed5bd81637ab *inst/unitTests/runit.TimedVector.R
 4adb64061958eaaece474b3c4033f1da *inst/unitTests/runit.model.R
 4e0b78deacd0adcdffaf423bf2fd97ba *man/Constants.Rd
@@ -31,11 +31,7 @@ b89dd6ea0ca41c05791c0cacbad03f2f *man/isTimedVector.Rd
 43656c85e681854657ddc7781bdebdd6 *man/pdmod-package.Rd
 4e9d6659d57ae1fbb0d3e78672d4723b *man/plot.pdmod.Rd
 d4c98d284395b56a7344f6bf86b7e0a5 *man/verifyTimedVector.Rd
-b74f40b1fdef4acef1c6adf66eb018ae *src/model.c
-158f7fa794a0345f345ed0378851af31 *tests/runUnitTests.R
-726b8260361e2e934a8da4fedcb3080a *vignettes/figure/compute_model.pdf
-f3fa3ce59380217a2249267e438b831c *vignettes/figure/fit_model.pdf
-23be77c2b859b732fa3477189165ac6a *vignettes/figure/response.pdf
-804affb406e0132be84dc7208c418099 *vignettes/pdmod-concordance.tex
+b83eb431bfbf6610ee99a1705ec0ea91 *src/model.c
+6976d53d76f2bebf86a4d4451f5a0382 *src/pdmod_init.c
+476d6abd6a5235b7620f2e457bb54295 *tests/runUnitTests.R
 ca2efb9d59eabe09c2e88ce68197b33a *vignettes/pdmod.Rnw
-fc83c74cbb0e67295da90cf8d6f60b5a *vignettes/pdmod.synctex.gz
